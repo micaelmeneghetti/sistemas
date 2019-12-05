@@ -1,5 +1,7 @@
 # sistemas
 
+```VHDL
+
 ENTITY controlblock IS
   PORT (
 		  ck: IN BIT; -- clock
@@ -91,3 +93,5 @@ BEGIN
 		END CASE;
 	
 END fsm;
+
+```
